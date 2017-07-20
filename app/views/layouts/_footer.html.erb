@@ -1,27 +1,24 @@
 <footer class="page-footer">
   <div class="container">
     <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">
-          You can use rows and columns here to organize your footer content.
-        </p>
-      </div>
-      <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">Links</h5>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-        </ul>
+      <div class="col l12 s12">
+        <h6 class="white-text center">Built with
+          <%= link_to 'Ruby on Rails 5.1.2',  'http://rubyonrails.org/',
+              target: '_blank', class: 'grey-text text-lighten-4' %>,
+          <%= link_to 'Materialize CSS', 'http://materializecss.com/',
+              target: '_blank', class: 'grey-text text-lighten-4' %>
+              and hosted on
+          <%= link_to 'Heroku', 'http://heroku.com/',
+              target: '_blank', class: 'grey-text text-lighten-4' %>.
+        </h6>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-    © 2014 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    © Forever Red Hendery
+    <%= link_to 'Check out the code', 'https://github.com/redhendery/rails_bowl',
+        target: '_blank', class: 'grey-text text-lighten-4 right' %>
     </div>
   </div>
 </footer>

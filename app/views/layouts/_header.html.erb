@@ -1,12 +1,12 @@
-<div class="container-fluid">
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <%= link_to 'Home', root_path, class: "brand-logo" %>
-        <ul class="right hide-on-med-and-down">
-          <%= link_to 'Contact', root_path, class: "nav-link nav-item" %>
-        </ul>
-      </div>
-    </nav>
+<nav>
+  <div class="container">
+    <div class = "nav-fixed">
+      <ul class="left">
+        <%= link_to 'Home', root_path %>
+      </ul>
+      <ul class="right">
+        <%= link_to 'Contact', create_message_path %>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
